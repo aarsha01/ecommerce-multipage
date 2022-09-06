@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style.css">
   <title>E-commerce</title>
 
 </head>
@@ -16,15 +16,18 @@
       <ul>
         <li class="logo">craftworks</li>
         <div class="list-items">
-          <li><a href="./home.html">Home</i></a></li>
-          <li><a href="./collection.html">Collections</a></li>
-          <li><a href="./men.html">What's New</a></li>
+          <li><a href="./index.html">Collections</a></li>
+          <li><a href="./men.html">What's</a></li>
+          <li><a href="./women.html">Women</a></li>
           <li><a href="#">About</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </div>
 
           <li class="search-bar">
             <input type="search" name="search" id="search" placeholder="Search">
+            <button>
+              <img class="search-icon" src="./images/Search-icon.png" alt="Search icon">
+            </button>
           </li>
         <li class="wrap">
           <a href="#">SIGN IN/SIGN UP</a>
@@ -41,7 +44,8 @@
   <main>
     <div class="product-container">
       <div class="column product-images">
-        <img class="img-product" src="./images/women-fall-clothes.jpg" alt="shoe product full size">
+        <img class="img-product" src="./images/women-fall-clothes.jpg" alt="women product full size">
+        
       </div>
       <div class="column product-description">
         <p class="name">Sneaker Company</p>
@@ -58,8 +62,8 @@
 
 <footer>
   <div class="attribution">
-    MITS, Kochin <a href="#" target="_blank">Cidrie</a>. 
-    Coded by <a href="#">Aarsha and Sandra</a>.
+    MITS, Kochin Cidrie. 
+    Coded by Aarsha and Sandra.
   </div>
 </footer>  
  
