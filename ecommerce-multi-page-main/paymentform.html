@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styleform.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <title>payment</title>
 </head>
 <body>
@@ -57,7 +58,8 @@
         <select name="pay" id="pay" required>
           <option value="">--select a cardtype--</option>
           <option value="val1">rupay</option>
-          <option value="val2">mastercard</option>
+          <!--icons not working-->
+          <option value="val2"><i class="fa-brands fa-cc-mastercard">mastercard</i></option>
           <option value="val3">creditcard</option>
         </select>
       <p>
@@ -75,9 +77,9 @@
       <p>cvv*
           <input type="password" name="cvv" id="cvv" required/>
       </p>
-      <input type="submit" value="PAY NOW">
-      <input type="submit" value="Cancel">
-
+      <input type="submit" value="PAY NOW"><br>
+      
+      <!-- try to make back button similar to pay now button-->
       <form action="index1.html" method="get" >
         <button type="submit">Back</button>
      </form>
